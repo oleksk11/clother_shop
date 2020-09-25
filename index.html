@@ -1,0 +1,321 @@
+<include html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Merlin</title>
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+
+		<!-- jQuery script -->
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	</head>
+	<body>
+		<header class="dark">
+			<div id="top">
+				<div class="wrap main_flex__nowrap flex__align-items_center flex__jcontent_between">
+					<div class="main_flex__nowrap flex__align-items_center">
+
+						<div id="sign" class="btn main_flex__nowrap flex__align-items_center flex__jcontent_between anime">
+							<i class="fas fa-user contact__icon"></i>
+							SIGN IN
+						</div>
+
+						<div id="location">
+							Location: <span>POLAND</span>
+						</div>
+					</div>
+
+					<div id="logo">
+						<a href="#">
+							<img src="img/logo.png" alt="">
+						</a>
+					</div>
+
+					<div class="main_flex__nowrap flex__align-items_center">
+						<div id="currency">
+							Currency: <span>US DOLLAR</span>
+						</div>  
+
+						<div id="cart" class="btn main_flex__nowrap flex__align-items_center flex__jcontent_between anime">
+							<i class="fas fa-shopping-cart shopping__icon"></i>
+							CART
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="menu">
+				<div class="wrap main_flex__nowrap flex__jcontent_center flex__align-items_center">
+					<nav id="main_nav">
+						<li><a href="#">MEN</a></li>
+						<li><a href="#">WOMAN</a></li>
+						<li><a href="#">GOODS</a></li>
+						<li><a href="#">ACCESSORIES</a></li>
+						<li><a href="#">BRANDS</a></li>
+						<li><a href="#">BLOG</a></li>
+					</nav>
+					<div id="search_btn">
+						<i class="fas fa-search search__icon"></i>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- banner -->
+		<div id="banner">
+			<img src="img/brand.png" alt="">
+		</div>
+
+		<main class="wrap main_flex__nowrap flex__align-items_start flex__jcontent_between">
+			
+			<div id="left_bar">
+				<div id="category" class="box">
+
+					<div class="list_box">
+						<div class="title_box main_flex__nowrap flex__align-items_center flex__jcontent_between">
+							<p>Woman</p>
+							<i class="fas fa-chevron-right arrow__icon"></i>
+						</div>
+						<div class="list_link">
+							<nav>
+								<li><a href="#">Jackets</a></li>
+								<li><a href="#">Blazers</a></li>
+								<li><a href="#">Suits</a></li>
+								<li><a href="#">Trousers</a></li>
+								<li><a href="#">Jeaans</a></li>
+								<li><a href="#">Shirts</a></li>
+							</nav>
+						</div>
+					</div>
+					<div class="list_box">
+						<div class="title_box main_flex__nowrap flex__align-items_center flex__jcontent_between">
+							<p>Man</p>
+							<i class="fas fa-chevron-right arrow__icon"></i>
+						</div>
+						<div class="list_link">
+							<nav>
+								<li><a href="#">Jackets</a></li>
+								<li><a href="#">Blazers</a></li>
+								<li><a href="#">Suits</a></li>
+								<li><a href="#">Trousers</a></li>
+								<li><a href="#">Jeaans</a></li>
+								<li><a href="#">Shirts</a></li>
+							</nav>
+						</div>
+					</div>
+					<div class="list_box">
+						<div class="title_box main_flex__nowrap flex__align-items_center flex__jcontent_between">
+							<p>Kids</p>
+							<i class="fas fa-chevron-right arrow__icon"></i>
+						</div>
+						<div class="list_link">
+							<nav>
+								<li><a href="#">Jackets</a></li>
+								<li><a href="#">Blazers</a></li>
+								<li><a href="#">Suits</a></li>
+								<li><a href="#">Trousers</a></li>
+								<li><a href="#">Jeaans</a></li>
+								<li><a href="#">Shirts</a></li>
+							</nav>
+						</div>
+					</div>
+					<div class="list_box">
+						<div class="title_box main_flex__nowrap flex__align-items_center flex__jcontent_between">
+							<p>Shoes&Bags</p>
+							<i class="fas fa-chevron-right arrow__icon"></i>
+						</div>
+						<div class="list_link">
+							<nav>
+								<li><a href="#">Shoes</a></li>
+								<li><a href="#">Bags</a></li>
+								<li><a href="#">Accessories</a></li>
+							</nav>
+						</div>
+					</div>
+				</div>
+				<!-- Colors filter -->
+				<div class="filter_box box">
+					<div class="title_filter main_flex__nowrap flex__align-items_center flex__jcontent_start">
+						COLORS
+					</div>
+					<div class="content_filter">
+						<ul class="list_filter main_flex flex__jcontent_start flex__align-items_start color_list">
+							<li class="check-box">
+							<input id="blue" type="checkbox">
+							<label style="background-color: #1476f1" for="blue"></label>
+							</li>
+							<li class="check-box">
+							<input id="green" type="checkbox">
+							<label style="background-color: #82d889" for="green"></label>
+							</li>
+							<li class="check-box">
+							<input id="dark_grey" type="checkbox">
+							<label style="background-color: #3c3d41" for="dark_grey"></label>
+							</li>
+							<li class="check-box">
+							<input id="grey" type="checkbox">
+							<label style="background-color: #838d9f" for="grey"></label>
+							</li>
+							<li class="check-box">
+							<input id="color5" type="checkbox">
+							<label style="background-color: #b8c6c7" for="color5"></label>
+							</li>
+							<li class="check-box">
+							<input id="color6" type="checkbox">
+							<label style="background-color: #ce954a" for="color6"</label>
+							</li>
+							<li class="check-box">
+							<input id="color7" type="checkbox">
+							<label style="background-color: #7b7f91" for="color7"></label>
+							</li>
+							<li class="check-box">
+							<input id="color8" type="checkbox">
+							<label style="background-color: #777777" for="color8"></label>
+							</li>
+							<li class="check-box">
+							<input id="color9" type="checkbox">
+							<label style="background-color: #bdbdbd" for="color9"></label>
+							</li>
+							<li class="check-box">
+							<input id="color10" type="checkbox">
+							<label style="background-color: #ce954a" for="color10"></label>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- Sizes filter -->
+				<div class="filter_box box">
+					<div class="title_filter main_flex__nowrap flex__align-items_center flex__jcontent_start">
+						SIZE
+					</div>
+					<div class="content_filter">
+						<ul class="list_filter main_flex flex__jcontent_start flex__align-items_start">
+							<li>
+							<input checked id="size1" type="checkbox">
+							<label for="size1">XS</label>
+							</li>
+							<li>
+							<input id="size2" type="checkbox">
+							<label for="size2">S</label>
+							</li>
+							<li>
+							<input id="size3" type="checkbox">
+							<label for="size3">M</label>
+							</li>
+							<li>
+							<input id="size4" type="checkbox">
+							<label for="size4">L</label>
+							</li>
+							<li>
+							<input id="size5" type="checkbox">
+							<label for="size5">XL</label>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- Prices filter -->
+				<div class="filter_box box">
+					<div class="title_filter main_flex__nowrap flex__align-items_center flex__jcontent_start">
+						PRICE RANGE
+					</div>
+					<div class="content_filter">
+						<!-- <div id="price_slider">
+							<div class="price_box main_flex__nowrap flex__align-items_center flex__jcontent_between">
+								<input type="text" name="minPrice" value="">
+								<input type="text" name="maxPrice" value="">
+							</div>
+						</div> -->
+					</div>
+				</div>
+			</div>
+			
+			<div id="right_bar">
+				<div class="list_product main_flex flex__jcontent_start flex__align-items_start">
+					<a class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
+					<div class="tag box">
+						new
+					</div>
+						<div class="img_product">
+							<img src="img/1.png" alt="">
+						</div>
+						<h2>Our Legacy Splash Jacquard Knit</h2>
+						<p>Black Grey Plants</p>
+						<p class="price">$200</p>
+					</a>
+					<a class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
+						<div class="img_product">
+							<img src="img/9.png" alt="">
+						</div>
+						<h2>Our Legacy 50s Great Sweat</h2>
+						<p>Black Grey Plants</p>
+						<p class="price">$85</p>
+					</a>
+					<a class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
+						<div class="img_product">
+							<img src="img/2.png" alt="">
+						</div>
+						<h2>Our Legacy Splash 50s Sweater</h2>
+						<p>Grey Melange</p>
+						<p class="price">$150</p>
+					</a>
+					<a class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
+						<div class="img_product">
+							<img src="img/3.png" alt="">
+						</div>
+						<h2>Our Legacy Splash First Shirt</h2>
+						<p>Navy Crinkle</p>
+						<p class="price">$165</p>
+					</a>
+					<a class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
+						<div class="img_product">
+							<img src="img/4.png" alt="">
+						</div>
+						<h2>Our Legacy Splash Mid Sleeve Tee</h2>
+						<p>Black Grey Plants</p>
+						<p class="price">$70</p>
+					</a>
+					<a class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
+						<div class="img_product">
+							<img src="img/5.png" alt="">
+						</div>
+						<h2>Our Legacy 50s Great Sweat</h2>
+						<p>Super Light Print</p>
+						<p class="price">$100</p>
+					</a>
+					<a class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
+						<div class="img_product">
+							<img src="img/6.png" alt="">
+						</div>
+						<h2>Our Legacy Splash Jacquard Knit</h2>
+						<p>Black Grey Plants</p>
+						<p class="price">$250</p>
+					</a>
+					<a class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
+						<div class="img_product">
+							<img src="img/7.png" alt="">
+						</div>
+						<h2>Our Legacy Six Shirt</h2>
+						<p>Raster Grey</p>
+						<p class="price">$90</p>
+					</a>
+					<a class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
+						<div class="img_product">
+							<img src="img/8.png" alt="">
+						</div>
+						<h2>Our Legacy Bomber Jacket II</h2>
+						<p>Faded Olive Twill</p>
+						<p class="price">$320</p>
+					</a>
+				</div>
+				<button id="load_more" type="button">
+					Load More
+				</button>
+			</div>
+		</main>
+		<script src="js/control.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+	</body>
+</html>
